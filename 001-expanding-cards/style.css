@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 8px;
+  width: 90vw;
+  margin: 0 auto;
+  height: 90vh;
+}
+
+.card {
+  position: relative;
+  flex: 0.5;
+  transition: wi 0.5s ease;
+  border-radius: 2vmin;
+  overflow: hidden;
+  transition: flex 0.5s ease-out;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: center;
+}
+
+.card_expand {
+  flex: 5;
+}
+
+.card__checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.card__title {
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  overflow: hidden;
+  width: 0;
+  transition: all 0.3s ease-out;
+  max-height: 28px;
+  padding: 0;
+}
+
+.card_expand .card__title {
+  width: fit-content;
+  padding: 2px;
+  padding-left: 10px;
+}
