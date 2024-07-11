@@ -11,7 +11,7 @@ body {
   width: 90vw;
   margin: 0 auto;
   height: 90dvh;
-  transition: heigh 0.2 linear;
+  transition: height 0.2s linear;
 }
 
 .card {
