@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.project-link {
+  width: 100%;
+  text-decoration: none;
+  color: brown;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.project-link:hover {
+  color: white;
+  background-color: brown;
+}
+
+.projects-table {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  border-spacing: 0;
+}
+
+.projects-table * {
+  text-align: center;
+}
+
+.projects-table th,
+.projects-table td,
+.projects-table tr {
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  border-spacing: 0;
+}
